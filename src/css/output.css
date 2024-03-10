@@ -458,6 +458,18 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
+h2{
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 112px;
+}
+
+h3{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -620,24 +632,41 @@ body{
   margin-top: -0.5rem;
 }
 
-.mb-\[136px\]{
-  margin-bottom: 136px;
-}
-
 .mb-12{
   margin-bottom: 3rem;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
 }
 
 .mb-5{
   margin-bottom: 1.25rem;
 }
 
+.mb-\[136px\]{
+  margin-bottom: 136px;
+}
+
 .block{
   display: block;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.size-\[37px\]{
+  width: 37px;
+  height: 37px;
 }
 
 .h-1{
@@ -648,68 +677,113 @@ body{
   height: 0.375rem;
 }
 
-.h-\[42px\]{
-  height: 42px;
-}
-
 .h-7{
   height: 1.75rem;
 }
 
-.w-\[11px\]{
-  width: 11px;
-}
-
-.w-\[45px\]{
-  width: 45px;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[313px\]{
-  width: 313px;
+.h-\[42px\]{
+  height: 42px;
 }
 
 .w-7{
   width: 1.75rem;
 }
 
-.max-w-\[1352px\]{
-  max-width: 1352px;
+.w-\[11px\]{
+  width: 11px;
 }
 
-.max-w-\[1680px\]{
-  max-width: 1680px;
+.w-\[313px\]{
+  width: 313px;
 }
 
-.max-w-\[\]{
-  max-width: ;
+.w-\[45px\]{
+  width: 45px;
 }
 
-.max-w-\[7\]{
-  max-width: 7;
+.w-full{
+  width: 100%;
 }
 
-.max-w-\[734px\]{
-  max-width: 734px;
+.w-auto{
+  width: auto;
 }
 
-.max-w-\[1353px\]{
-  max-width: 1353px;
+.w-\[13\]{
+  width: 13;
+}
+
+.w-\[1361\]{
+  width: 1361;
+}
+
+.w-\[1361px\]{
+  width: 1361px;
 }
 
 .max-w-\[1354px\]{
   max-width: 1354px;
 }
 
-.flex-col{
-  flex-direction: column;
+.max-w-\[1523px\]{
+  max-width: 1523px;
+}
+
+.max-w-\[1680px\]{
+  max-width: 1680px;
+}
+
+.max-w-\[734px\]{
+  max-width: 734px;
+}
+
+.max-w-\[1356px\]{
+  max-width: 1356px;
+}
+
+.max-w-\[1359px\]{
+  max-width: 1359px;
+}
+
+.max-w-\[1399px\]{
+  max-width: 1399px;
+}
+
+.max-w-max{
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.grow{
+  flex-grow: 1;
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.items-start{
+  align-items: flex-start;
+}
+
+.items-end{
+  align-items: flex-end;
 }
 
 .items-center{
   align-items: center;
+}
+
+.justify-start{
+  justify-content: flex-start;
+}
+
+.justify-end{
+  justify-content: flex-end;
 }
 
 .justify-center{
@@ -736,12 +810,28 @@ body{
   gap: 1rem;
 }
 
-.gap-\[38px\]{
-  gap: 38px;
+.gap-5{
+  gap: 1.25rem;
 }
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-\[38px\]{
+  gap: 38px;
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2\.5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.625rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.625rem * var(--tw-space-y-reverse));
 }
 
 .rounded-xl{
@@ -791,6 +881,14 @@ body{
   padding-bottom: 88px;
 }
 
+.pb-24{
+  padding-bottom: 6rem;
+}
+
+.pt-\[101px\]{
+  padding-top: 101px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -799,31 +897,20 @@ body{
   font-size: 112px;
 }
 
+.text-\[25px\]{
+  font-size: 25px;
+}
+
 .text-\[37px\]{
   font-size: 37px;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-\[40px\]{
   font-size: 40px;
 }
 
-.text-\[25px\]{
-  font-size: 25px;
+.text-\[22px\]{
+  font-size: 22px;
 }
 
 .font-bold{
@@ -834,12 +921,12 @@ body{
   font-weight: 800;
 }
 
-.font-medium{
-  font-weight: 500;
-}
-
 .font-normal{
   font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .capitalize{
@@ -854,25 +941,29 @@ body{
   line-height: 168px !important;
 }
 
-.leading-\[56px\]{
-  line-height: 56px;
+.leading-\[38px\]{
+  line-height: 38px;
 }
 
-.leading-\[\]{
-  line-height: ;
+.leading-\[56px\]{
+  line-height: 56px;
 }
 
 .leading-\[60px\]{
   line-height: 60px;
 }
 
-.leading-\[38px\]{
-  line-height: 38px;
+.leading-\[33px\]{
+  line-height: 33px;
 }
 
 .text-brand-gray-600{
   --tw-text-opacity: 1;
   color: rgb(112 112 112 / var(--tw-text-opacity));
+}
+
+.text-\[22\]{
+  color: 22;
 }
 
 .container{

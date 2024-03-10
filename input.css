@@ -10,6 +10,14 @@
     @apply bg-black text-white text-xl leading-[30px] font-medium;
     font-family: "Poppins", sans-serif;
   }
+
+  h2 {
+    @apply text-[75px] leading-[112px] font-semibold;
+  }
+
+  h3 {
+    @apply text-[35px] leading-[52px] font-semibold;
+  }
 }
 
 /* components */
