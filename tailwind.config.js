@@ -21,6 +21,10 @@ module.exports = {
           green: "#0FC65C",
         },
       },
+
+      width: {
+        313: "313px",
+      },
     },
   },
   plugins: [],

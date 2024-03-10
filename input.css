@@ -23,11 +23,15 @@
 /* components */
 @layer components {
   .main-btn {
-    @apply bg-brand-blue-500 py-6 px-5 rounded-lg;
+    @apply bg-brand-blue-500 py-6 px-5 rounded-lg capitalize;
   }
 
   .secondary-btn {
-    @apply text-center text-brand-gray-600 py-6 px-9 border border-brand-gray-600 rounded-lg;
+    @apply text-center text-brand-gray-600 py-6 px-9 border border-brand-gray-600 rounded-lg capitalize;
+  }
+
+  .step {
+    @apply text-brand-blue-500 text-[25px] leading-[38px] font-semibold uppercase;
   }
 }
 
