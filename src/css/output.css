@@ -822,6 +822,14 @@ h3{
   max-width: max-content;
 }
 
+.max-w-\[\]{
+  max-width: ;
+}
+
+.max-w-\[926px\]{
+  max-width: 926px;
+}
+
 .grid-cols-3{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1064,6 +1072,10 @@ h3{
   line-height: 60px;
 }
 
+.leading-\[\]{
+  line-height: ;
+}
+
 .text-brand-blue-500{
   --tw-text-opacity: 1;
   color: rgb(50 108 249 / var(--tw-text-opacity));
@@ -1072,6 +1084,10 @@ h3{
 .text-brand-gray-600{
   --tw-text-opacity: 1;
   color: rgb(112 112 112 / var(--tw-text-opacity));
+}
+
+.text-\[\]{
+  color: ;
 }
 
 .shadow-main{
