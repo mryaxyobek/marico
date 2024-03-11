@@ -25,6 +25,10 @@ module.exports = {
       width: {
         313: "313px",
       },
+
+      boxShadow: {
+        main: "0 30px 50px rgba(0,0,0,0.4)",
+      },
     },
   },
   plugins: [],
