@@ -12,11 +12,11 @@
   }
 
   h2 {
-    @apply text-[75px] leading-[112px] font-semibold;
+    @apply text-[32px] leading-relaxed font-semibold sm:text-5xl md:text-6xl lg:text-7xl xl:text-[75px] xl:leading-[112px];
   }
 
   h3 {
-    @apply text-[35px] leading-[52px] font-semibold;
+    @apply text-2xl leading-normal font-semibold md:text-3xl lg:text-[35px] lg:leading-[52px];
   }
 }
 
