@@ -1019,6 +1019,10 @@ h3{
   width: 100%;
 }
 
+.w-\[820p\]{
+  width: 820p;
+}
+
 .max-w-\[1149px\]{
   max-width: 1149px;
 }
@@ -1074,6 +1078,10 @@ h3{
 .max-w-max{
   max-width: -moz-max-content;
   max-width: max-content;
+}
+
+.shrink-0{
+  flex-shrink: 0;
 }
 
 .grid-cols-1{
@@ -1354,6 +1362,10 @@ h3{
   text-align: center;
 }
 
+.text-start{
+  text-align: start;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1420,6 +1432,11 @@ h3{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold{
@@ -1559,6 +1576,10 @@ h3{
     margin-bottom: 4rem;
   }
 
+  .sm\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
   .sm\:h-\[37px\]{
     height: 37px;
   }
@@ -1571,8 +1592,16 @@ h3{
     width: 313px;
   }
 
+  .sm\:w-\[207px\]{
+    width: 207px;
+  }
+
   .sm\:flex-row{
     flex-direction: row;
+  }
+
+  .sm\:items-start{
+    align-items: flex-start;
   }
 
   .sm\:items-center{
@@ -1615,6 +1644,14 @@ h3{
     padding-bottom: 4rem;
   }
 
+  .sm\:text-center{
+    text-align: center;
+  }
+
+  .sm\:text-start{
+    text-align: start;
+  }
+
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1629,6 +1666,16 @@ h3{
     font-size: 25px;
   }
 
+  .sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .sm\:font-medium{
     font-weight: 500;
   }
@@ -1636,11 +1683,27 @@ h3{
   .sm\:leading-\[38px\]{
     line-height: 38px;
   }
+
+  .sm\:leading-\[27px\]{
+    line-height: 27px;
+  }
 }
 
 @media (min-width: 768px){
   .md\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+
+  .md\:mb-14{
+    margin-bottom: 3.5rem;
+  }
+
+  .md\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:mb-8{
+    margin-bottom: 2rem;
   }
 
   .md\:h-\[42px\]{
@@ -1713,8 +1776,16 @@ h3{
     font-size: 37px;
   }
 
+  .md\:text-\[23px\]{
+    font-size: 23px;
+  }
+
   .md\:leading-\[56px\]{
     line-height: 56px;
+  }
+
+  .md\:leading-\[34px\]{
+    line-height: 34px;
   }
 }
 
@@ -1725,6 +1796,18 @@ h3{
 
   .lg\:mb-24{
     margin-bottom: 6rem;
+  }
+
+  .lg\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .lg\:mb-14{
+    margin-bottom: 3.5rem;
+  }
+
+  .lg\:mb-10{
+    margin-bottom: 2.5rem;
   }
 
   .lg\:inline-block{
@@ -1776,6 +1859,26 @@ h3{
 
   .xl\:mb-\[136px\]{
     margin-bottom: 136px;
+  }
+
+  .xl\:mb-7{
+    margin-bottom: 1.75rem;
+  }
+
+  .xl\:mb-20{
+    margin-bottom: 5rem;
+  }
+
+  .xl\:block{
+    display: block;
+  }
+
+  .xl\:items-start{
+    align-items: flex-start;
+  }
+
+  .xl\:text-start{
+    text-align: start;
   }
 
   .xl\:text-\[112px\]{
