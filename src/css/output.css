@@ -739,6 +739,14 @@ h3{
   margin-bottom: 52px;
 }
 
+.mb-3{
+  margin-bottom: 0.75rem;
+}
+
+.mb-3\.5{
+  margin-bottom: 0.875rem;
+}
+
 .block{
   display: block;
 }
@@ -801,6 +809,10 @@ h3{
   height: 52px;
 }
 
+.h-\[151px\]{
+  height: 151px;
+}
+
 .w-313{
   width: 313px;
 }
@@ -847,6 +859,14 @@ h3{
 
 .w-\[47px\]{
   width: 47px;
+}
+
+.w-\[px\]{
+  width: px;
+}
+
+.w-\[164px\]{
+  width: 164px;
 }
 
 .max-w-\[1149px\]{
@@ -936,6 +956,22 @@ h3{
 
 .max-w-\[1681px\]{
   max-width: 1681px;
+}
+
+.max-w-\[919\]{
+  max-width: 919;
+}
+
+.max-w-\[919px\]{
+  max-width: 919px;
+}
+
+.max-w-\[px\]{
+  max-width: px;
+}
+
+.max-w-\[920px\]{
+  max-width: 920px;
 }
 
 .grid-cols-2{
@@ -1209,6 +1245,31 @@ h3{
   padding-bottom: 82px;
 }
 
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.py-\[106px0\]{
+  padding-top: 106px0;
+  padding-bottom: 106px0;
+}
+
+.py-\[106px\]{
+  padding-top: 106px;
+  padding-bottom: 106px;
+}
+
+.px-28{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-24{
   padding-bottom: 6rem;
 }
@@ -1247,6 +1308,18 @@ h3{
 
 .pb-\[288px\]{
   padding-bottom: 288px;
+}
+
+.pt-\[106px\]{
+  padding-top: 106px;
+}
+
+.pb-\[\]{
+  padding-bottom: ;
+}
+
+.pb-\[87px\]{
+  padding-bottom: 87px;
 }
 
 .text-center{
@@ -1314,6 +1387,18 @@ h3{
 
 .text-\[28px\]{
   font-size: 28px;
+}
+
+.text-\[100px\]{
+  font-size: 100px;
+}
+
+.text-\[43px\]{
+  font-size: 43px;
+}
+
+.text-\[38px\]{
+  font-size: 38px;
 }
 
 .font-bold{
@@ -1402,6 +1487,14 @@ h3{
 
 .leading-\[42px\]{
   line-height: 42px;
+}
+
+.leading-\[150px\]{
+  line-height: 150px;
+}
+
+.leading-\[57px\]{
+  line-height: 57px;
 }
 
 .text-brand-blue-500{
