@@ -33,6 +33,44 @@
   .step {
     @apply text-brand-blue-500 text-[25px] leading-[38px] font-semibold uppercase;
   }
+
+  /* hamburger btn */
+  .hamburger-btn {
+    @apply flex items-center justify-center sm:w-9 sm:h-9;
+  }
+
+  .hamburger-btn * {
+    @apply inline-block;
+  }
+
+  .hamburger-btn-lines-wrapper {
+    @apply flex flex-col items-center justify-center relative size-7 transition-transform;
+  }
+
+  .hamburger-btn-line {
+    @apply absolute w-full h-0.5 rounded-full bg-white transition-all;
+  }
+
+  .hamburger-btn-line:nth-child(1) {
+    @apply translate-y-2;
+  }
+
+  .hamburger-btn-line:nth-child(2) {
+    @apply -translate-y-2;
+  }
+
+  /* active hamburger btn */
+  .active-hamburger-btn .hamburger-btn-lines-wrapper {
+    @apply rotate-[225deg];
+  }
+
+  .active-hamburger-btn .hamburger-btn-line:nth-child(1) {
+    @apply translate-y-0;
+  }
+
+  .active-hamburger-btn .hamburger-btn-line:nth-child(2) {
+    @apply translate-y-0 rotate-90;
+  }
 }
 
 /* utilities */

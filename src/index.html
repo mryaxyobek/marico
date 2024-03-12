@@ -12,7 +12,7 @@
   </head>
   <body>
     <!-- header -->
-    <header class="py-[46px]">
+    <header class="py-6 sm:py-9 md:py-[46px]">
       <div class="container max-w-[1680px]">
         <div class="flex items-center justify-between">
           <!-- logo -->
@@ -22,15 +22,16 @@
               height="42"
               src="./images/logo.svg"
               alt="logo"
-              class="w-[45px] h-[42px]"
+              class="w-8 h-[29px] sm:w-10 sm:h-[37px] md:w-[45px] md:h-[42px]"
             />
-            <span class="text-[37px] leading-[56px] font-extrabold"
+            <span
+              class="text-2xl font-extrabold sm:text-3xl md:text-[37px] md:leading-[56px]"
               >Marico</span
             >
           </a>
 
           <!-- nav -->
-          <nav>
+          <nav class="hidden lg:inline-block">
             <ul class="flex items-center gap-[38px]">
               <li>
                 <a
@@ -60,9 +61,23 @@
           </nav>
 
           <!-- login -->
-          <div class="flex gap-1">
+          <div class="hidden gap-1 lg:flex">
             <a href="#" class="secondary-btn py-3 px-5 border-none">Login</a>
             <a href="#" class="main-btn py-3">Sign Up</a>
+          </div>
+
+          <!-- hamburger btn wrapper -->
+          <div class="flex items-center gap-2 lg:hidden">
+            <a href="#" class="secondary-btn p-2 border-none sm:px-4"
+              >Sign Up</a
+            >
+            <button class="hamburger-btn js-hamburger-btn">
+              <span class="hamburger-btn-lines-wrapper">
+                <span class="hamburger-btn-line"></span>
+                <span class="hamburger-btn-line"></span>
+                <span class="hamburger-btn-line"></span>
+              </span>
+            </button>
           </div>
         </div>
       </div>
