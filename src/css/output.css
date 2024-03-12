@@ -686,6 +686,9 @@ h3{
   padding-left: 2.25rem;
   padding-right: 2.25rem;
   text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
   text-transform: capitalize;
   --tw-text-opacity: 1;
   color: rgb(112 112 112 / var(--tw-text-opacity));
@@ -698,13 +701,28 @@ h3{
   opacity: 0.75;
 }
 
+@media (min-width: 768px){
+  .secondary-btn{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    line-height: 30px;
+  }
+}
+
 .step{
-  font-size: 25px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  line-height: 38px;
   --tw-text-opacity: 1;
   color: rgb(50 108 249 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .step{
+    font-size: 25px;
+    line-height: 38px;
+  }
 }
 
 /* hamburger btn */
@@ -821,10 +839,6 @@ h3{
 
 .col-span-1{
   grid-column: span 1 / span 1;
-}
-
-.-mb-2{
-  margin-bottom: -0.5rem;
 }
 
 .-mb-7{
@@ -959,10 +973,6 @@ h3{
 
 .\!w-full{
   width: 100% !important;
-}
-
-.w-313{
-  width: 313px;
 }
 
 .w-7{
@@ -1597,6 +1607,14 @@ h3{
     padding-bottom: 2.25rem;
   }
 
+  .sm\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .sm\:pb-16{
+    padding-bottom: 4rem;
+  }
+
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1655,12 +1673,30 @@ h3{
     padding-bottom: 88px;
   }
 
+  .md\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .md\:pb-24{
     padding-bottom: 6rem;
   }
 
   .md\:pt-\[101px\]{
     padding-top: 101px;
+  }
+
+  .md\:pt-16{
+    padding-top: 4rem;
+  }
+
+  .md\:pt-20{
+    padding-top: 5rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-4xl{
@@ -1716,8 +1752,16 @@ h3{
     line-height: 1;
   }
 
+  .lg\:text-\[30px\]{
+    font-size: 30px;
+  }
+
   .lg\:text-\[40px\]{
     font-size: 40px;
+  }
+
+  .lg\:leading-\[45px\]{
+    line-height: 45px;
   }
 
   .lg\:leading-\[60px\]{
@@ -1726,6 +1770,10 @@ h3{
 }
 
 @media (min-width: 1280px){
+  .xl\:-mb-2{
+    margin-bottom: -0.5rem;
+  }
+
   .xl\:mb-\[136px\]{
     margin-bottom: 136px;
   }

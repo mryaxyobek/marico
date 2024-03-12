@@ -27,11 +27,11 @@
   }
 
   .secondary-btn {
-    @apply text-center text-brand-gray-600 py-6 px-9 border border-brand-gray-600 rounded-lg capitalize transition-opacity hover:opacity-75;
+    @apply text-center text-brand-gray-600 py-6 px-9 border border-brand-gray-600 rounded-lg text-lg font-medium capitalize transition-opacity hover:opacity-75 md:text-xl md:leading-[30px];
   }
 
   .step {
-    @apply text-brand-blue-500 text-[25px] leading-[38px] font-semibold uppercase;
+    @apply text-brand-blue-500 text-xl font-semibold uppercase md:text-[25px] md:leading-[38px];
   }
 
   /* hamburger btn */
