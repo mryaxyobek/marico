@@ -23,11 +23,11 @@
 /* components */
 @layer components {
   .main-btn {
-    @apply bg-brand-blue-500 py-6 px-5 rounded-lg capitalize;
+    @apply bg-brand-blue-500 py-6 px-5 rounded-lg capitalize transition-opacity hover:opacity-75;
   }
 
   .secondary-btn {
-    @apply text-center text-brand-gray-600 py-6 px-9 border border-brand-gray-600 rounded-lg capitalize;
+    @apply text-center text-brand-gray-600 py-6 px-9 border border-brand-gray-600 rounded-lg capitalize transition-opacity hover:opacity-75;
   }
 
   .step {
