@@ -18,7 +18,7 @@ module.exports = {
             600: "#707070",
             500: "#919191",
           },
-          
+
           green: {
             500: "#0FC65C",
           },
@@ -31,6 +31,7 @@ module.exports = {
 
       boxShadow: {
         main: "0 30px 50px rgba(0,0,0,0.4)",
+        secondary: "0 30px 50px rgba(100,100,100,0.50)",
       },
     },
   },
